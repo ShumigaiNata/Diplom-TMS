@@ -1,0 +1,19 @@
+.logo {
+    position: absolute;
+    top: 48px;
+    left: 62px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        top: 40px;
+        left: 47px;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .logo {
+        top: 32px;
+        left: 50px;
+    }
+}

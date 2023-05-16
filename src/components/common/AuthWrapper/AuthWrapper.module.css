@@ -1,0 +1,24 @@
+.wrapper {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.wrapper.light {
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        padding: 38px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .wrapper {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .wrapper {
+        padding: 24px;
+    }
+}

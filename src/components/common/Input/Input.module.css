@@ -1,0 +1,235 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color:  #FFFFFF;
+    gap: 8px;
+}
+
+.forAuthFormLabel{
+    gap: -8px;
+    margin-bottom: 24px;
+}
+
+.lightLabel {
+    color: #242426;
+}
+
+.inputForSearchLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    border-radius: 10px;
+    border: 2px solid #AFB2B6;
+    color: black;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.inputForSearch {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    background: #323537;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color:  #FFFFFF;
+    width: 100%;
+}
+.forTitleSort {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    background: #323537;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color:  #FFFFFF;
+    width: 438px;
+}
+.forNumbersSort {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    background: #323537;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color:  #FFFFFF;
+    width: 199px;
+    display: flex;
+}
+.forNumbersSort::-webkit-inner-spin-button, .forNumbersSortSecond::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.forNumbersSortSecond {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    background: #323537;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color:  #FFFFFF;
+    width: 199px;
+    margin-top: 32px;
+    align-self: flex-end;
+}
+
+.forAuthFormInput[type=text]:not(.browser-default),
+.forAuthFormInput[type=email]:not(.browser-default),
+.forAuthFormInput[type=password]:not(.browser-default){
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #323537;
+    border-radius: 10px;
+    outline: unset;
+    box-sizing: border-box;
+    border: transparent;
+    height: 4rem;
+    margin: 0 0 -8px 0;
+    padding-left: 20px;
+}
+
+.forAuthFormInputLight[type=text]:not(.browser-default),
+.forAuthFormInputLight[type=email]:not(.browser-default),
+.forAuthFormInputLight[type=password]:not(.browser-default){
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    outline: unset;
+    box-sizing: border-box;
+    border: 2px solid #AFB2B6;
+    height: 4rem;
+    margin: 0 0 -8px 0;
+    padding-left: 20px;
+}
+
+.forAuthFormInput[type=text]:not(.browser-default):focus,
+.forAuthFormInput[type=email]:not(.browser-default):focus,
+.forAuthFormInput[type=password]:not(.browser-default):focus,
+.forAuthFormInputLight[type=text]:not(.browser-default):focus,
+.forAuthFormInputLight[type=email]:not(.browser-default):focus,
+.forAuthFormInputLight[type=password]:not(.browser-default):focus {
+    border: 2px solid #7B61FF;
+    outline: unset;
+}
+
+::-webkit-input-placeholder  {
+    color: red;
+}
+
+/*.input {*/
+/*    font-family: 'Exo 2';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 16px;*/
+/*    line-height: 24px;*/
+/*    padding: 16px 20px;*/
+/*    background: #323537;*/
+/*    border-radius: 10px;*/
+/*    width: 544px;*/
+/*    color:  #FFFFFF;*/
+/*    border: 2px solid transparent;*/
+/*}*/
+
+.inputForSearch:focus, input:focus,
+.inputForSearch:focus-visible, input:focus-visible {
+    border: 2px solid #7B61FF;
+    outline: unset;
+}
+
+.inputForSearch:disabled, input:disabled {
+    background: #80858B;
+    border-radius: 10px;
+    color: #AFB2B6;
+}
+
+.inputForSearch::placeholder, input::placeholder {
+    color: #80858B;
+}
+
+.errorMessage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD3419;
+}
+.error {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 544px;
+    border: 2px solid #FD3419;
+}
+
+
+@media screen and (max-width: 768px) {
+    .forAuthFormLabel{
+        /*margin-bottom: 20px;*/
+    }
+    .error {
+        width: 608px;
+    }
+    .input {
+        width: 608px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .inputWrapper {
+        width: 100%;
+    }
+    .error {
+        width: 100%
+    }
+    .input {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .input {
+        width: 224px
+    }
+}
+

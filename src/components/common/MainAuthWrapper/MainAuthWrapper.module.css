@@ -1,0 +1,36 @@
+.mainAuthWrapper {
+    background: black url("../../../../../1 Graduation-project/src/assets/Frame 1439.png") no-repeat center/cover;
+}
+
+.wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    background: #242426;
+    border-radius: 10px;
+    width: 574px;
+}
+
+.block{
+    height: 100px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 73%;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .container {
+        max-width: 83%;
+    }
+}

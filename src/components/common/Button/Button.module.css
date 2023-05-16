@@ -1,0 +1,67 @@
+.forIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.forPagination {
+    background: #323537;
+    transition: 0.5s;
+}
+.forPagination, .forPaginationLight{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Exo 2',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+}
+.forPaginationLight {
+    background: #AFB2B6;
+    transition: 0.5s;
+}
+.forPagination:hover , .forPaginationLight:hover{
+    color: #917CFF;
+}
+.forPagination:disabled , .forPaginationLight:disabled{
+    color: #AFB2B6;
+    background: #80858B;
+}
+
+.forAuthForm {
+    font-family: 'Exo 2',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    background: #7B61FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: 0.2s;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.forAuthForm:hover {
+    background: #917CFF;
+}
+.forAuthForm:disabled {
+    color: #AFB2B6;
+    background: #80858B;
+}

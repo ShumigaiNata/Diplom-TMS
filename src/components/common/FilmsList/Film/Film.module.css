@@ -1,0 +1,68 @@
+.filmWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    cursor: pointer;
+}
+
+.block {
+    position: relative;
+    border-radius: 20px;
+}
+.filmImg {
+    display: block;
+    width: 266px;
+    height: 357px;
+    border-radius: 20px;
+}
+.filmRating {
+    background: #00A340;
+    border-radius: 6px;
+    width: 37px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.filmTitle {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 24px 0 4px;
+    transition: 0.3s;
+}
+.filmGenre {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB2B6;
+}
+.filmTitle:hover {
+    color: #7B61FF;
+}
+.light {
+    color: #242426;
+}
+@media screen and (max-width: 1768px) {
+    .filmImg {
+        width: 208px;
+        height: 279px;
+    }
+}

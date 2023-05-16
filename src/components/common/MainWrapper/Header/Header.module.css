@@ -1,0 +1,16 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 2;
+    height: 96px;
+    padding-top: 40px;
+}
+
+.light {
+    background-color: #FFFFFF;
+}
